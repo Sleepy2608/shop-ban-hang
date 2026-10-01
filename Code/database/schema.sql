@@ -1,0 +1,13 @@
+-- Database Schema cho Shop Đồ Công Nghệ (MVP)
+-- Các bảng dự kiến:
+-- 1. users
+-- 2. categories
+-- 3. brands
+-- 4. products
+-- 5. product_images
+-- 6. product_specs
+-- 7. carts
+-- 8. cart_items
+-- 9. orders
+-- 10. order_items
+-- 11. payments
