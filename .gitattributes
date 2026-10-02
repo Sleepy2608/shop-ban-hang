@@ -1,0 +1,82 @@
+# Set default behavior: normalize all text files to LF on checkout/commit
+* text=auto eol=lf
+
+# -----------------------------------------------------------------------------
+# Source Code (force text format and standard diff algorithms)
+# -----------------------------------------------------------------------------
+# Java / Backend
+*.java          text diff=java
+*.properties    text
+*.xml           text
+*.sql           text
+pom.xml         text
+
+# JavaScript / TypeScript / Frontend
+*.js            text
+*.jsx           text
+*.ts            text
+*.tsx           text
+*.json          text
+*.html          text
+*.css           text
+*.scss          text
+*.svg           text
+
+# Config & Documentation
+*.md            text
+*.txt           text
+*.yml           text
+*.yaml          text
+.gitignore      text
+.gitattributes  text
+.env*           text
+
+# -----------------------------------------------------------------------------
+# Scripts & Executables
+# -----------------------------------------------------------------------------
+# Linux/macOS shell scripts must use LF
+*.sh            text eol=lf
+mvnw            text eol=lf
+gradlew         text eol=lf
+
+# Windows batch files must use CRLF
+*.bat           text eol=crlf
+*.cmd           text eol=crlf
+*.ps1           text eol=crlf
+mvnw.cmd        text eol=crlf
+gradlew.bat     text eol=crlf
+
+# -----------------------------------------------------------------------------
+# Binary Files
+# -----------------------------------------------------------------------------
+*.jar           binary
+*.war           binary
+*.class         binary
+*.exe           binary
+*.dll           binary
+*.so            binary
+*.dylib         binary
+
+# Images & Media
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.gif           binary
+*.ico           binary
+*.webp          binary
+*.mp4           binary
+*.pdf           binary
+
+# Fonts
+*.woff          binary
+*.woff2         binary
+*.ttf           binary
+*.eot           binary
+*.otf           binary
+
+# -----------------------------------------------------------------------------
+# Lockfiles & Generated metadata
+# -----------------------------------------------------------------------------
+package-lock.json   binary
+yarn.lock           binary
+pnpm-lock.yaml      binary
