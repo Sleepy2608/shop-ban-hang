@@ -1,4 +1,4 @@
-# MVP SPECIFICATION - SHOP BÁN HÀNG ĐỒ CÔNG NGHỆ
+# MVP SPECIFICATION - SLYBYTE SHOP (ĐỒ CÔNG NGHỆ)
 
 ## 1. Xác Định MVP (Minimum Viable Product)
 
@@ -46,7 +46,7 @@
 ## 3. Cấu Trúc Dự Án (Phase 1 — Khởi Tạo)
 
 ```text
-shop-ban-hang/
+SlyByte-Shop/
 ├── Docs/
 │   └── MVP_SPEC.md
 ├── Code/

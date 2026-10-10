@@ -1,6 +1,4 @@
-# Shop Bán Hàng (Đồ Công Nghệ)
-
-## 📌 Phase 1 — Khởi Tạo Dự Án & Định Nghĩa MVP
+# SlyByte Shop - Cửa Hàng Đồ Công Nghệ
 
 ### 1. Phân Hệ Người Dùng (User)
 - Đăng ký / Đăng nhập
@@ -18,7 +16,7 @@
 
 ### 3. Cấu Trúc Thư Mục Dự Án
 ```text
-shop-ban-hang/
+SlyByte-Shop/
 ├── Docs/
 │   └── MVP_SPEC.md
 ├── Code/
